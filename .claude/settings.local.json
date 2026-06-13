@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:sanjaysundarmurthy-portfolio.vercel.app)",
+      "Read(//Users/migueltomasbraga/Downloads/**)",
+      "Bash(python3 -c ' *)",
+      "mcp__Claude_Preview__preview_start"
+    ]
+  }
+}
