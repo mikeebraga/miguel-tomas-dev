@@ -28,34 +28,6 @@ const experiments = [
     status: 'active',
     repo: 'https://github.com/mikeebraga/ArgoCD_Vs_FluxCD',
   },
-  {
-    title: 'k8s-hardening-lab',
-    description: 'Automated CIS benchmark hardening for Kubernetes clusters. Runs Kubescape + Trivy scans as GitLab CI gates.',
-    tags: ['Kubernetes', 'Trivy', 'GitLab CI', 'Shell / Bash'],
-    status: 'active',
-    repo: 'https://github.com/mikeebraga',
-  },
-  {
-    title: 'mlops-pipeline-template',
-    description: 'Reusable GitOps template for MLflow experiment tracking + model registry on OpenShift AI. Deploy with one Helm chart.',
-    tags: ['OpenShift', 'Helm', 'Python', 'ArgoCD'],
-    status: 'active',
-    repo: 'https://github.com/mikeebraga',
-  },
-  {
-    title: 'falco-rules-pack',
-    description: 'Custom Falco rules for detecting anomalous behaviour in multi-tenant Kubernetes namespaces.',
-    tags: ['Falco', 'Kubernetes', 'Shell / Bash'],
-    status: 'wip',
-    repo: 'https://github.com/mikeebraga',
-  },
-  {
-    title: 'infra-as-code-starter',
-    description: 'Opinionated Terraform + Ansible boilerplate for spinning up a production-ready OpenShift cluster on AWS.',
-    tags: ['Terraform', 'Ansible', 'OpenShift', 'Python'],
-    status: 'wip',
-    repo: 'https://github.com/mikeebraga',
-  },
 ]
 
 const STATUS = {
