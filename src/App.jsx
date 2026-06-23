@@ -3,7 +3,7 @@ import About from './components/About'
 import Skills from './components/Skills'
 import Education from './components/Education'
 import Certifications from './components/Certifications'
-import Projects from './components/Projects'
+import Lab from './components/Lab'
 import Contact from './components/Contact'
 import './App.css'
 
@@ -15,7 +15,7 @@ function App() {
       <Skills />
       <Education />
       <Certifications />
-      <Projects />
+      <Lab />
       <Contact />
     </main>
   )

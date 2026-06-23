@@ -4,7 +4,20 @@
       "WebFetch(domain:sanjaysundarmurthy-portfolio.vercel.app)",
       "Read(//Users/migueltomasbraga/Downloads/**)",
       "Bash(python3 -c ' *)",
-      "mcp__Claude_Preview__preview_start"
+      "mcp__Claude_Preview__preview_start",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(gh pr *)",
+      "Bash(mkdir -p ~/mlops-platform)",
+      "Read(//Users/migueltomasbraga/**)",
+      "Bash(git clone *)",
+      "Bash(kubectl get *)",
+      "Bash(mkdir -p /Users/migueltomasbraga/ArgoCD_Vs_FluxCD/.github/workflows \\\\ *)",
+      "Bash(kubectl describe *)",
+      "Bash(git commit *)",
+      "Bash(awk '{print $1}')",
+      "Bash(kubectl top *)"
     ]
   }
 }

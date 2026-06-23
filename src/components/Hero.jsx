@@ -72,7 +72,7 @@ export default function Hero() {
           }}>
             Work with me
           </a>
-          <a href="https://github.com/migueltomasbraga" target="_blank" rel="noreferrer" style={{
+          <a href="https://github.com/mikeebraga" target="_blank" rel="noreferrer" style={{
             border: '1px solid #1e3a5f',
             color: '#93c5fd',
             padding: '11px 28px',

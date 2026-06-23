@@ -21,7 +21,7 @@ export default function Contact() {
         <p style={{ color: '#7a9bbf', marginBottom: '36px', fontSize: '15px' }}>
           Open to B2B remote contracts · DevOps · MLOps · Platform
         </p>
-        <a href="mailto:miguel@example.com" style={{
+        <a href="mailto:miguel_braga_inv@outlook.pt" style={{
           display: 'inline-block',
           background: '#1d4ed8',
           color: '#fff',
