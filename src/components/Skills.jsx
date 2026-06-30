@@ -40,9 +40,9 @@ const categories = [
   {
     label: 'Cloud & Infrastructure',
     tools: [
-      { name: 'AWS', level: 85 },
-      { name: 'Azure', level: 80 },
-      { name: 'Terraform', level: 90 },
+      { name: 'AWS', level: 65 },
+      { name: 'Azure', level: 65 },
+      { name: 'Terraform', level: 65 },
       { name: 'Ansible', level: 80 },
     ],
   },
@@ -52,7 +52,7 @@ const categories = [
       { name: 'MLflow', level: 80 },
       { name: 'Kubeflow', level: 75 },
       { name: 'OpenShift AI', level: 85 },
-      { name: 'GPU Scheduling', level: 70 },
+      { name: 'GPU Scheduling', level: 65 },
     ],
   },
   {

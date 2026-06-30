@@ -58,7 +58,7 @@ export default function Education() {
                 fontSize: '13px',
                 color: '#60a5fa',
                 fontWeight: '700',
-              }}>18 / 20</span>
+              }}>15 / 20</span>
             </div>
           </div>
 

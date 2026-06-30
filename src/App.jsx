@@ -1,5 +1,6 @@
 import Hero from './components/Hero'
 import About from './components/About'
+import Experience from './components/Experience'
 import Skills from './components/Skills'
 import Education from './components/Education'
 import Certifications from './components/Certifications'
@@ -12,6 +13,7 @@ function App() {
     <main style={{ background: '#060d17', minHeight: '100vh', color: '#c9d4e0' }}>
       <Hero />
       <About />
+      <Experience />
       <Skills />
       <Education />
       <Certifications />

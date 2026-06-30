@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import profileImg from '../assets/me_CV.jpeg'
 
 export default function Hero() {
   return (
@@ -7,8 +8,6 @@ export default function Hero() {
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
-      flexDirection: 'column',
-      textAlign: 'center',
       padding: '0 24px',
       borderBottom: '1px solid #0e2040',
     }}>
@@ -16,7 +15,40 @@ export default function Hero() {
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
+        style={{
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          gap: '0px',
+          maxWidth: '700px',
+          width: '100%',
+          textAlign: 'center',
+        }}
       >
+        {/* Photo */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+          style={{ flexShrink: 0 }}
+        >
+          <img
+            src={profileImg}
+            alt="Miguel Tomás"
+            style={{
+              width: '180px',
+              height: '180px',
+              borderRadius: '50%',
+              objectFit: 'cover',
+              objectPosition: 'center 25%',
+              border: '3px solid #1e3a5f',
+              boxShadow: '0 0 32px rgba(59,130,246,0.15)',
+            }}
+          />
+        </motion.div>
+
+        {/* Text */}
+        <div style={{ width: '100%', textAlign: 'center', marginTop: '32px' }}>
         <p style={{
           fontFamily: 'monospace',
           color: '#3b82f6',
@@ -42,9 +74,9 @@ export default function Hero() {
         <div style={{
           display: 'flex',
           gap: '10px',
-          justifyContent: 'center',
           flexWrap: 'wrap',
           marginBottom: '40px',
+          justifyContent: 'center',
         }}>
           {['DevOps', 'MLOps', 'Platform Engineer'].map((t) => (
             <span key={t} style={{
@@ -59,7 +91,7 @@ export default function Hero() {
           ))}
         </div>
 
-        <div style={{ display: 'flex', gap: '14px', justifyContent: 'center', flexWrap: 'wrap' }}>
+        <div style={{ display: 'flex', gap: '14px', flexWrap: 'wrap', justifyContent: 'center' }}>
           <a href="#contact" style={{
             background: '#1d4ed8',
             color: '#fff',
@@ -84,6 +116,7 @@ export default function Hero() {
             GitHub →
           </a>
         </div>
+        </div> {/* end text */}
       </motion.div>
     </section>
   )
