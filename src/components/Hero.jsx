@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { Link } from 'react-router-dom'
 import profileImg from '../assets/me_CV.jpeg'
 
 export default function Hero() {
@@ -115,6 +116,17 @@ export default function Hero() {
           }}>
             GitHub →
           </a>
+          <Link to="/cv" style={{
+            border: '1px solid #1e3a5f',
+            color: '#93c5fd',
+            padding: '11px 28px',
+            borderRadius: '4px',
+            fontWeight: '600',
+            textDecoration: 'none',
+            fontSize: '14px',
+          }}>
+            CV ↓
+          </Link>
         </div>
         </div> {/* end text */}
       </motion.div>
