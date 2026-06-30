@@ -22,14 +22,17 @@ export default function About() {
         <p style={{ fontFamily: 'monospace', color: '#3b82f6', fontSize: '12px', letterSpacing: '0.2em', textTransform: 'uppercase', marginBottom: '12px' }}>
           About
         </p>
-        <h2 style={{ color: '#e2eaf4', fontSize: 'clamp(22px, 3vw, 32px)', fontWeight: '700', margin: '0 0 24px', letterSpacing: '-0.5px' }}>
-          Bridging the gap between heavy data models and stable infrastructure.
+        <h2 style={{ color: '#e2eaf4', fontSize: 'clamp(22px, 3vw, 32px)', fontWeight: '700', margin: '0 0 32px', letterSpacing: '-0.5px', lineHeight: 1.3 }}>
+          I used to pilot physical container ships.<br />Now I orchestrate virtual ones.
         </h2>
-        <p style={{ color: '#7a9bbf', lineHeight: 1.8, fontSize: '15px' }}>
-          Hello! My name is Miguel.
-I am a Lisbon-based Platform & MLOps Engineer specialized in supporting, securing, and automating cloud-native applications across Kubernetes and OpenShift environments.
-With a Master's degree in Big Data Analytics and over 3.5 years of hands-on DevOps experience, I understand how to bridge the gap between heavy data workloads and enterprise infrastructure. My engineering philosophy centers on Infrastructure-as-code (IaC), GitOps, and cluster security best practices—backed by advanced certifications including the Certified Kubernetes Security Specialist (CKS) and other specialized Red Hat certifications.
-Whether designing end-to-end MLOps pipelines or hardening container orchestration platforms, I focus on building highly reliable systems that empower teams to scale.
+        <p style={{ color: '#7a9bbf', lineHeight: 1.85, fontSize: '15px', marginBottom: '20px' }}>
+          Hello! My name is Miguel — a Lisbon-based Platform & MLOps Engineer specializing in securing, supporting, and automating cloud-native workloads.
+        </p>
+        <p style={{ color: '#7a9bbf', lineHeight: 1.85, fontSize: '15px', marginBottom: '20px' }}>
+          My career path has a bit of an ironic twist: I hold a degree in Marine Sciences and spent three tough months onboard physical container ships during the COVID-19 pandemic. While I decided the ocean life wasn't for me, I couldn't quite escape containers. Today, I've traded physical cargo for Docker containers, and ocean navigation for Kubernetes and OpenShift orchestration.
+        </p>
+        <p style={{ color: '#7a9bbf', lineHeight: 1.85, fontSize: '15px' }}>
+          With a Master's in Big Data Analytics, over 3.5 years of DevOps experience, and almost Redhat Certified Architect, I know how to keep enterprise infrastructure stable and secure under heavy workloads. I guess you could say I'm still a pilot at heart — just steering cloud clusters instead of cargo ships.
         </p>
       </motion.div>
     </section>
